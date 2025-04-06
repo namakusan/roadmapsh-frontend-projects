@@ -1,3 +1,2 @@
-# CV
-HTML CV project for roadmap.sh
+frontend projects for roadmap.sh
 https://roadmap.sh/projects/single-page-cv
