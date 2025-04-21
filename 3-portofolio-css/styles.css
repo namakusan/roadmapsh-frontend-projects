@@ -1,0 +1,108 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+#header-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#ahsan-hermawan {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.main-header {
+    text-align: center;
+    grid-column: span 3;
+    padding-top: 6rem;
+    padding-inline: 10rem;
+    padding-bottom: 10rem;
+    font-size: xxx-large;
+}
+
+.main-sections {
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    border-bottom: black solid 3px;
+}
+
+.section-header {
+    padding: 1rem;
+    border-top: black solid 3px;
+}
+
+.projects-item, .content-block, .education-content {
+    border-top: black solid 3px;
+    padding: 1rem;
+}
+
+.portfolio-sections {
+    border-right: black solid 3px;
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem
+}
+
+.reviews-header {
+    grid-column: span 3;
+    text-align: center;
+}
+
+.reviews {
+    padding: 1rem;
+    border: black solid 3px;
+    border-radius: 1rem;
+}
+
+@media (orientation: portrait) {
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #header-logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    nav {
+        padding-block: 1rem;
+    }
+
+    .main-header {
+        text-align: center;
+        grid-column: span 3;
+        padding-top: 6rem;
+        padding-inline: 3rem;
+        padding-bottom: 10rem;
+        font-size: xxx-large;
+    }
+
+    .main-sections {
+        display: block;
+    }
+
+    .reviews-container {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem
+    }
+}
