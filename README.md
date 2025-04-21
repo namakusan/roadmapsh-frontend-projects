@@ -1,2 +1,5 @@
-frontend projects for roadmap.sh
-https://roadmap.sh/projects/single-page-cv
+# frontend projects for roadmap.sh
+
+List of projects done.
+1. https://roadmap.sh/projects/single-page-cv
+2. https://roadmap.sh/projects/basic-html-website
