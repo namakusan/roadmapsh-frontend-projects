@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+main {
+    display: grid;
+    width: 80%;
+    max-width: 800px;
+    padding-block: 5%;
+    padding-inline: 5px;
+    border: black 1px solid;
+    border-radius: 20px;
+    box-shadow: dimgray 5px 10px 15px;
+}
+
+.change-item {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 3fr;
+    justify-content: center;
+}
+
+.change-date {
+    text-align: right;
+    color: darkgray;
+    margin-right: 10px;
+}
+
+.change-content {
+    text-align: left;
+
+}
+
+.change-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.change-decoration {
+    width: 0px;
+    height: 100px;
+    border: black solid 1px;
+    margin: -6px;
+    fill: black;
+}
+
+.change-circle {
+    margin-block:-2px;
+    margin-inline: 5px;
+}
