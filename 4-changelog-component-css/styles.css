@@ -46,7 +46,7 @@ main {
 }
 
 .change-decoration {
-    width: 0px;
+    width: 0;
     height: 100px;
     border: black solid 1px;
     margin: -6px;
